@@ -9,16 +9,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { MusicComponent } from './music/music.component';
+import { PicturesComponent } from './pictures/pictures.component';
+import { ShowsComponent } from './shows/shows.component';
+import { StoreComponent } from './store/store.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'music', component: },
-  {path: 'pictures', component: },
-  {path: 'shows', component: },
-  {path: 'store', component: },
-  {path: 'contact', component: },
-  {path: '', redirectTo: '/home' }
+  {path: 'music', component: MusicComponent},
+  {path: 'pictures', component: PicturesComponent},
+  {path: 'shows', component: ShowsComponent},
+  {path: 'store', component: StoreComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
 @NgModule({
@@ -27,7 +31,11 @@ const appRoutes: Routes = [
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    MusicComponent
+    MusicComponent,
+    PicturesComponent,
+    ShowsComponent,
+    StoreComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
