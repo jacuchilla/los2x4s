@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
   {path: 'home', component: },
@@ -15,13 +16,14 @@ const appRoutes: Routes = [
   {path: 'shows', component: },
   {path: 'store', component: },
   {path: 'contact', component: },
-  {path: '', redirectTo: '/' }
+  {path: '', redirectTo: '/home' }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
