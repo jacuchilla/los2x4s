@@ -3,6 +3,31 @@ a {
     color: black;
 }
 
-.active {
+/*.active {
     color: orange;
+}*/
+
+nav {
+  width: 100%;
+  padding: 0 5%;
 }
+
+nav a {
+  padding: 1% 4%;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  /*text-align: center;*/
+  
+}
+
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+
+nav a.active {
+  color: #039be5;
+}
+
