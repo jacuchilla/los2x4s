@@ -1,25 +1,46 @@
+nav {
+    
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: justify;
+    /*width: 100%;*/
+    /*background-color: #eee;*/
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: table-cell;
+    width: .25%;
+    /*border: solid;*/
+    border-width: 1px;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     color: black;
+    font-size: 1.1em;
 }
 
-/*.active {
-    color: orange;
-}*/
 
-nav {
+/*nav {
   width: 100%;
   padding: 0 5%;
+  text-align: justify;
 }
 
 nav a {
-  padding: 1% 4%;
+  padding: 1% 4.5%;
   text-decoration: none;
   display: inline-block;
   background-color: #eee;
   border-radius: 4px;
-  /*text-align: center;*/
-  
 }
 
 nav a:hover {
@@ -29,5 +50,5 @@ nav a:hover {
 
 nav a.active {
   color: #039be5;
-}
+}*/
 

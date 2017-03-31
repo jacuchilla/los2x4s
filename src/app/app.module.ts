@@ -14,6 +14,7 @@ import { PicturesComponent } from './pictures/pictures.component';
 import { ShowsComponent } from './shows/shows.component';
 import { StoreComponent } from './store/store.component';
 import { ContactComponent } from './contact/contact.component';
+import { WoodarmyComponent } from './woodarmy/woodarmy.component';
 
 const appRoutes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -21,6 +22,7 @@ const appRoutes: Routes = [
   {path: 'music', component: MusicComponent},
   {path: 'pictures', component: PicturesComponent},
   {path: 'shows', component: ShowsComponent},
+  {path: 'woodarmy', component: WoodarmyComponent},
   {path: 'store', component: StoreComponent},
   {path: 'contact', component: ContactComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
@@ -36,7 +38,8 @@ const appRoutes: Routes = [
     PicturesComponent,
     ShowsComponent,
     StoreComponent,
-    ContactComponent
+    ContactComponent,
+    WoodarmyComponent
   ],
   imports: [
     BrowserModule,
