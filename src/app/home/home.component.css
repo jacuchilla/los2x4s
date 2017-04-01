@@ -12,3 +12,7 @@ img {
 .carousel-caption {
     color: black;
 }
+
+.feature-divider {
+    margin: 3rem 0;
+}
