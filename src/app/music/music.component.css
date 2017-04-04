@@ -1,0 +1,31 @@
+#musicPlayer {
+    /*float: left;*/
+}
+
+#albumContainer {
+    /*position: relative;*/
+}
+
+#bandCover {
+    /*float: left;*/
+    /*width: 30%;
+    height: 30%;*/
+}
+
+img {
+    width: 33vw;
+}
+
+#songList ol {
+    list-style-position: inside;
+    padding: 0 0 0 30%;
+}
+
+#songList {
+    text-align: center;
+}
+
+#songList li {
+    text-align: left;
+}
+
