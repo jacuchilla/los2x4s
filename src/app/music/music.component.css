@@ -18,8 +18,8 @@ img {
 }
 
 #songList ol {
-    list-style-position: inside;
-    padding: 0 0 0 30%;
+    /*list-style-position: inside;*/
+    /*padding: 0 0 0 30%;*/
 }
 
 #songList {
@@ -30,3 +30,6 @@ img {
     text-align: left;
 }
 
+#lyrics {
+    padding: 5%;
+}

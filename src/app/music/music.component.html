@@ -11,10 +11,10 @@
       <ol>
         <li *ngFor="let song of songsList, let indx = index">
           <a (click)="songClick($event, this, indx)"> {{ song }} </a>
-          <div [hidden]="songsListShow[indx]">
-            This is the lyrics<br>
-            This is more lyrics<br>
-            This is even more lyrics
+          <div [hidden]="songsListShow[indx]" id="lyrics">
+            This is the lyrics and its going to be long <br>
+            This is more lyrics and its also going to be long<br>
+            This is even more lyrics and its even gona be more long
           </div>
 
         </li>

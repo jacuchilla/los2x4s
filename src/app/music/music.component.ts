@@ -20,7 +20,7 @@ songsListShow: any;
 
   constructor() { 
     this.songsList = ["Surfwood", "Carnies", "Horchata", "Mary Jane", "Away It Goes", "Square Peg"];
-    this.songsListShow = [true, true, true, false, true, true];
+    this.songsListShow = [true, true, true, true, true, true];
    }
 
   ngOnInit() {
