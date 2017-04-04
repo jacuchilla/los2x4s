@@ -9,12 +9,29 @@
     <div id="songList" class="col-lg-4 col-md-5 col-sm-6">
       <h3>Song Playlist</h3>
       <ol>
-        <li>Surfwood</li>
+        <li *ngFor="let song of songsList, let indx = index">
+          <a (click)="songClick($event, this, indx)"> {{ song }} </a>
+          <div [hidden]="songsListShow[indx]">
+            This is the lyrics<br>
+            This is more lyrics<br>
+            This is even more lyrics
+          </div>
+
+        </li>
+        <!--<li>
+          <a (click)="showLyrics = showLyrics ? false : true"> Surfwood </a>
+          <div [hidden]="!showLyrics">
+            This is the lyrics<br>
+            This is more lyrics<br>
+            This is even more lyrics
+          </div>
+        </li>
+
         <li>Carnies</li>
         <li>Horchata</li>
         <li>Mary Jane</li>
         <li>Away It Goes</li>
-        <li>Square Peg</li>
+        <li>Square Peg</li>-->
       </ol>
     </div>
 
