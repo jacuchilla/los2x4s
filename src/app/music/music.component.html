@@ -1,13 +1,14 @@
 <div>
-  <h1>Our Music</h1>
-
+  <h1>Songs</h1>
+  <hr class="title-line">
   <div id="albumContainer" class="row">
     <div id="bandCover" class="col-lg-4 col-md-5 col-sm-6">
       <img src="https://f4.bcbits.com/img/a2723759678_10.jpg" alt="">
     </div>
 
     <div id="songList" class="col-lg-4 col-md-5 col-sm-6">
-      <h3>Song Playlist</h3>
+      <h3>Playlist</h3>
+      <hr class="title-line">
       <ol>
         <li *ngFor="let song of songsList, let indx = index">
           <a (click)="songClick($event, this, indx)"> {{ song }} </a>
@@ -40,6 +41,13 @@
         <a href="http://los2x4s.bandcamp.com/album/in-case-you-missed-it">In Case You Missed It by Los 2x4&#39;s</a>
       </iframe>
     </div>
+  </div>
+
+  <br>
+  <h1>Music Videos</h1>
+  <hr class="title-line">
+  <div id="musicVids">
+    
   </div>
 
 

@@ -1,3 +1,10 @@
-<p>
-  shows works!
-</p>
+<div id="showContainer">
+  <h1>Flyers</h1>
+  <hr class="title-line">
+  <div *ngFor="let flyer of flyers; let i = index">
+    <h3>{{flyer.title}}</h3>
+    <p>{{flyer.date}}</p>
+    <img src={{flyer.url}} alt="" align="middle">
+  </div>
+  
+</div>
