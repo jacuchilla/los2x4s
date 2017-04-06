@@ -18,3 +18,7 @@ footer {
     color: #333; /* old IE */
     background-color: #333; /* Modern Browsers */
 }
+
+#bandLogo img {
+    width: 100%;
+}

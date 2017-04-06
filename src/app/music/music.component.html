@@ -11,7 +11,7 @@
       <hr class="title-line">
       <ol>
         <li *ngFor="let song of songsList, let indx = index">
-          <a (click)="songClick($event, this, indx)"> {{ song }} </a>
+          <a (click)="songClick($event, this, indx)" id="songName"> {{ song }} </a>
           <div [hidden]="songsListShow[indx]" id="lyrics">
             This is the lyrics and its going to be long <br>
             This is more lyrics and its also going to be long<br>
