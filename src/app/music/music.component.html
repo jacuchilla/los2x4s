@@ -7,8 +7,8 @@
     </div>
 
     <div id="songList" class="col-lg-4 col-md-5 col-sm-6">
-      <h3>Playlist</h3>
-      <hr class="title-line">
+      <!--<h3>Playlist</h3>
+      <hr class="title-line">-->
       <ol>
         <li *ngFor="let song of songsList, let indx = index">
           <a (click)="songClick($event, this, indx)" id="songName"> {{ song }} </a>
